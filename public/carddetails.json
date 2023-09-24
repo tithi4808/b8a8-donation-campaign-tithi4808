@@ -1,0 +1,122 @@
+ [
+      {
+        "picture": "https://example.com/image1.jpg",
+        "title": "Product 1",
+        "category": "Category A",
+        "category_bg": "#FFC107",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 19.99
+      },
+      {
+        "picture": "https://example.com/image2.jpg",
+        "title": "Product 2",
+        "category": "Category B",
+        "category_bg": "#9C27B0",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "price": 29.99
+      },
+      {
+        "picture": "https://example.com/image3.jpg",
+        "title": "Product 3",
+        "category": "Category C",
+        "category_bg": "#2196F3",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "price": 39.99
+      },
+      {
+        "picture": "https://example.com/image4.jpg",
+        "title": "Product 4",
+        "category": "Category A",
+        "category_bg": "#FFC107",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "price": 49.99
+      },
+      {
+        "picture": "https://example.com/image5.jpg",
+        "title": "Product 5",
+        "category": "Category B",
+        "category_bg": "#9C27B0",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "price": 59.99
+      },
+      {
+        "picture": "https://example.com/image6.jpg",
+        "title": "Product 6",
+        "category": "Category C",
+        "category_bg": "#2196F3",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "price": 69.99
+      },
+      {
+        "picture": "https://example.com/image7.jpg",
+        "title": "Product 7",
+        "category": "Category A",
+        "category_bg": "#FFC107",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "price": 79.99
+      },
+      {
+        "picture": "https://example.com/image8.jpg",
+        "title": "Product 8",
+        "category": "Category B",
+        "category_bg": "#9C27B0",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "price": 89.99
+      },
+      {
+        "picture": "https://example.com/image9.jpg",
+        "title": "Product 9",
+        "category": "Category C",
+        "category_bg": "#2196F3",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "price": 99.99
+      },
+      {
+        "picture": "https://example.com/image10.jpg",
+        "title": "Product 10",
+        "category": "Category A",
+        "category_bg": "#FFC107",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "price": 109.99
+      },
+      {
+        "picture": "https://example.com/image11.jpg",
+        "title": "Product 11",
+        "category": "Category B",
+        "category_bg": "#9C27B0",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "price": 119.99
+      },
+      {
+        "picture": "https://example.com/image12.jpg",
+        "title": "Product 12",
+        "category": "Category C",
+        "category_bg": "#2196F3",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#212121",
+        "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "price": 129.99
+      }
+    ]
