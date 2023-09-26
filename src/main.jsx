@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement:<Errorpage></Errorpage>,
+    
     children:[
       {
         path: "/",
@@ -42,11 +42,20 @@ const router = createBrowserRouter([
         path: "/carddetails/:id",
         element:<CardDetails></CardDetails>,
         loader:()=>fetch('/carddetails.json')
-         
-      }
+  
+      },
+      
+      
+
 
     ]
+    
   },
+
+  {
+    path:"*",
+    element:<Errorpage></Errorpage>
+  }
 ]);
 
 
@@ -62,3 +71,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      <RouterProvider router={router} />
   </React.StrictMode>,
 )
+
+
