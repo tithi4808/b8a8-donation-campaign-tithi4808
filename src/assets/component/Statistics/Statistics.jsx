@@ -60,12 +60,12 @@ const Statistics = () => {
         
 
         <>
-            <div>
-                <div className="flex justify-center text-center">
+            <div >
+                <div className="flex justify-center items-center">
                     
-                    <div >
-                        <ResponsiveContainer width={600} height={400} className="text-center">
-                            <PieChart width={600} height={600}>
+                    <div className="mt-10" >
+                        <ResponsiveContainer width={400} height={400} className="text-center">
+                            <PieChart width="100%" height={600}>
                                  <Legend  align="top" /> 
                                 <Pie
                                     data={data}
@@ -73,7 +73,7 @@ const Statistics = () => {
                                     cy="50%"
                                     labelLine={false}
                                     label={renderCustomizedLabel}
-                                    outerRadius={80}
+                                    outerRadius={140}
                                     fill="#8884d8"
                                     dataKey="value"
                                 >

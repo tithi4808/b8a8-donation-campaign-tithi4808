@@ -11,6 +11,7 @@ import Home from './assets/component/Home/Home.jsx';
 import Donations from './assets/component/Donations/Donations.jsx';
 import Statistics from './assets/component/Statistics/Statistics.jsx';
 import CardDetails from './assets/component/Carddetails/CardDetails.jsx';
+import Errorpage from './assets/component/Errorpage/Errorpage.jsx';
 
 
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<Errorpage></Errorpage>,
     children:[
       {
         path: "/",

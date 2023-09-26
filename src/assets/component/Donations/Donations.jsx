@@ -46,7 +46,7 @@ const Donations = () => {
 
 <div >
 
-<div className="grid grid-cols-2">
+<div className="mx-auto md:mx-auto  lg:grid grid-cols-2">
 {
       show? alldata.map(data=><Donationdetails key={data.id} data={data}></Donationdetails>) : alldata.slice(0,datalength).map(data=><Donationdetails key={data.id} data={data}></Donationdetails>)
 }

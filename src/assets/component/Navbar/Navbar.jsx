@@ -5,12 +5,12 @@ const Navbar = () => {
 
 
     return (
-<div className="navbar bg-base-100">
-  <div className="flex-1">
-    <img className="h-[40px]" src="https://i.ibb.co/0hVVqVQ/Logo.png" alt="" />
+<div className="navbar">
+  <div className=" flex-1">
+    <img className="h-[20px] md:h-[40px] "  src="https://i.ibb.co/0hVVqVQ/Logo.png" alt="" />
     
   </div>
-  <div className="flex-none">
+  <div className=" md:flex-none">
     <ul className="menu menu-horizontal px-1 gap-4  ">
       
           <NavLink
