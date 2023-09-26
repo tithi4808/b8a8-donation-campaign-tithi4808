@@ -1,4 +1,4 @@
-##Three Project feature:
-+Users can easily donate
-+Users can see how many donations are done in donation page
-+also users can get a overview of their donation by pie chart
+Three Project feature:
+1.Users can easily donate
+2.Users can see how many donations are done in donation page
+3.also users can get a overview of their donation by pie chart
