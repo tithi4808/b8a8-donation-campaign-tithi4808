@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
+
+
     return (
 <div className="navbar bg-base-100">
   <div className="flex-1">
@@ -9,11 +11,22 @@ const Navbar = () => {
     
   </div>
   <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 ">
+    <ul className="menu menu-horizontal px-1 gap-4  ">
       
-      <li><NavLink to='/' activeClassName="active"><a>Home</a></NavLink></li>
-      <li><NavLink to='/donation' activeClassName="active"><a>Donation</a></NavLink></li>
-      <li><NavLink to='/Statistics' activeClassName="active"><a>Statistics</a></NavLink></li>
+          <NavLink
+        to="/"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "text-orange-400 underline" : ""
+        }
+      >
+        Home
+      </NavLink>
+      <NavLink to='/donation' className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "text-orange-400 underline" : ""
+        }>Donation</NavLink>
+      <NavLink to='/Statistics' className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "text-orange-400 underline" : ""
+        }>Statistics</NavLink>
       
     </ul>
   </div>

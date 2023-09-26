@@ -17,7 +17,7 @@ const Donationdetails = ({data}) => {
            
             <p className="text-start font-bold">{title}</p>
             <p className="text-start" style={{color:`${text_bg}`}}>${price}</p>
-            <button className="text-white w-32 rounded-lg py-2" style={{backgroundColor:`${text_bg}`}}>View Details</button>
+            <button  className="text-white w-32 rounded-lg py-2" style={{backgroundColor:`${text_bg}`}}>View Details</button>
             
             
         </div>

@@ -7,9 +7,12 @@ const getAllId=()=>{
     return [];
 }
 
+
 // const setAllId=id=>
 // {
 //     const storedata=getAllId()
+
+
 //      const exist=storedata.find(ids=>ids==id)
     
         
